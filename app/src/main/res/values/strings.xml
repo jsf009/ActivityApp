@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ActivityApp</string>
+    <string name="record_title_hint"> Enter a title for the Activty done</string>
+    <string name="record_title_label"> Title </string>
+    <string name="record_comments_label"> Comments </string>
+    <string name="record_comments_hint"> Enter comments for the activity</string>
+    <string name="record_study_label"> Study </string>
+    <string name="record_sport_label"> Sport </string>
+    <string name="record_leisure_label"> Leisure </string>
+    <string name="record_work_label"> Work </string>
+    <string name ="date_picker_title"> Date of record:</string>
+    <string name="new_record">New Record</string>
+    <string name ="show_subtitle"> Show Subtitle</string>
+    <string name ="hide_subtitle"> hide Subtitle</string>
+    <string name ="subtitle_format">%1$d Record:</string>
+    <string name ="record_cancel"> Cancel </string>
+    <string name ="record_save"> Save </string>
+
+</resources>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/record_title_label"/>
+
+    <EditText
+        android:id="@+id/record_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/record_title_hint"/>
+
+    <TextView
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/record_comments_label"/>
+
+    <EditText
+        android:id="@+id/record_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter a comment for the activity"/>
+
+    <Button
+        android:id="@+id/record_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/record_study"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/record_study_label"/>
+
+    <CheckBox
+        android:id="@+id/record_sport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/record_sport_label"/>
+
+    <CheckBox
+        android:id="@+id/record_leisure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/record_leisure_label"/>
+
+    <CheckBox
+        android:id="@+id/record_work"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/record_work_label"/>
+
+    <Button
+        android:id="@+id/record_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/record_save" />
+
+    <Button
+        android:id="@+id/record_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/record_cancel"/>
+
+
+
+
+</LinearLayout>
