@@ -38,6 +38,8 @@ public class RecordFragment extends Fragment {
     private CheckBox mLeisureCheckBox;
     private CheckBox mWorkCheckBox;
 
+    //checking update
+
     public static RecordFragment newInstance (UUID recordid) {
         Bundle args = new Bundle();
         args.putSerializable(ARG_RECORD_ID, recordid);

@@ -18,9 +18,9 @@ import java.util.GregorianCalendar;
 /**
  * Created by joshua on 10/19/2017.
  */
-
+// This class is responsible for the date
 public class DatePickerFragment extends DialogFragment {
-
+    //These are the declared varibles
     public static final String EXTRA_DATE=
             "com.mobileappdevelopment.activityapp.date";
 
@@ -36,7 +36,7 @@ public class DatePickerFragment extends DialogFragment {
         fragment.setArguments(args);
         return fragment;
     }
-
+    //On create the
     @Override
     public Dialog onCreateDialog (Bundle savedInstanceState) {
         Date date = (Date) getArguments().getSerializable(ARG_DATE);
